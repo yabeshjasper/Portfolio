@@ -1,4 +1,6 @@
-/* Reset default margins and paddings */
+/* style.css */
+
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,100 +8,108 @@
 }
 
 body {
-  body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 30px;
-  background: 
-    linear-gradient(135deg, #cfe572, #9eb432),
-    url('https://www.toptal.com/designers/subtlepatterns/patterns/symphony.png');
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
-  color: #333;
   line-height: 1.6;
-}
-
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  color: #333;
+  padding: 0 20px;
+  scroll-behavior: smooth;
 }
 
 /* Header */
 header {
+  background: linear-gradient(135deg, #4a90e2, #0077b6);
+  color: white;
+  padding: 30px 20px;
   text-align: center;
-  margin-bottom: 50px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 0 0 15px 15px;
 }
 
 header h1 {
-  font-size: 3em;
-  color: #2e3d00;
+  font-size: 2.5rem;
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.2em;
-  color: #4a4a4a;
-}
-
-/* Navigation */
-nav {
-  text-align: center;
-  margin: 30px 0;
-}
-
 nav a {
-  display: inline-block;
-  margin: 0 15px;
+  color: #fff;
   text-decoration: none;
-  color: #2c2c2c;
+  margin: 0 15px;
   font-weight: bold;
-  padding: 8px 15px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 nav a:hover {
-  background-color: #549cd0;
-  color: white;
+  color: #ffd166;
 }
 
 /* Sections */
 section {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: 30px auto;
   padding: 30px;
-  margin-bottom: 50px;
-  transition: transform 0.3s ease;
-}
-
-section:hover {
-  transform: translateY(-5px);
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
 section h2 {
-  color: #374200;
+  color: #0077b6;
   margin-bottom: 20px;
-  font-size: 2em;
+  font-size: 1.8rem;
+}
+
+/* About Section */
+#about p {
+  font-size: 1.1rem;
+}
+
+/* Projects */
+#projects ul {
+  list-style-type: none;
+}
+
+#projects li {
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #e6f2ff;
+  border-left: 5px solid #0077b6;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Contact */
+#contact p,
+#contact a {
+  font-size: 1.1rem;
+  color: #0077b6;
+}
+
+#contact a {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#contact a:hover {
+  color: #023e8a;
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  font-size: 14px;
-  color: #555;
-  padding-top: 30px;
-  border-top: 1px solid #ccc;
+  padding: 20px 10px;
+  background: #f0f0f0;
+  color: #888;
   margin-top: 40px;
+  font-size: 0.9rem;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
-  body {
-    padding: 20px;
-  }
-
   header h1 {
-    font-size: 2em;
+    font-size: 2rem;
   }
 
   nav a {
@@ -110,5 +120,4 @@ footer {
   section {
     padding: 20px;
   }
- 
 }
