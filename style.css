@@ -1,131 +1,77 @@
-/* Base Reset */
+/* Reset default margins and paddings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
   padding: 30px;
-  background: linear-gradient(to right, #d0e97a, #9eb432);
+  background: linear-gradient(135deg, #cfe572, #9eb432);
   color: #333;
-  transition: background-color 0.4s, color 0.4s;
+  line-height: 1.6;
 }
 
 /* Header */
 header {
   text-align: center;
   margin-bottom: 50px;
-  animation: fadeInDown 1s ease-out;
 }
 
 header h1 {
-  font-size: 3rem;
+  font-size: 3em;
   color: #2e3d00;
+  margin-bottom: 10px;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   color: #4a4a4a;
 }
 
 /* Navigation */
 nav {
   text-align: center;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 nav a {
+  display: inline-block;
   margin: 0 15px;
   text-decoration: none;
   color: #2c2c2c;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 8px 15px;
   border-radius: 8px;
-  transition: 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
   background-color: #5a6c00;
-  color: #fff;
+  color: white;
 }
 
-/* Section */
+/* Sections */
 section {
-  background-color: #fff;
-  border-radius: 12px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   padding: 30px;
-  margin-bottom: 40px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  animation: fadeInUp 1s ease-in-out;
-  transition: transform 0.3s;
+  margin-bottom: 50px;
+  transition: transform 0.3s ease;
 }
 
 section:hover {
-  transform: translateY(-4px);
+  transform: translateY(-5px);
 }
 
 section h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
   color: #374200;
-}
-
-/* Button Component */
-.button {
-  display: inline-block;
-  background-color: #5a6c00;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.button:hover {
-  background-color: #3f4e00;
-}
-
-/* Card Component */
-.card {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
-  transition: transform 0.3s;
-}
-
-.card:hover {
-  transform: scale(1.02);
-}
-
-/* Form Styles */
-input[type="text"],
-input[type="email"],
-textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  transition: border-color 0.3s;
-}
-
-input:focus,
-textarea:focus {
-  border-color: #5a6c00;
-  outline: none;
+  font-size: 2em;
 }
 
 /* Footer */
@@ -138,89 +84,22 @@ footer {
   margin-top: 40px;
 }
 
-/* Animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Responsive */
+/* Responsive Design */
 @media (max-width: 768px) {
   body {
     padding: 20px;
   }
 
   header h1 {
-    font-size: 2.2rem;
+    font-size: 2em;
   }
 
   nav a {
     display: block;
     margin: 10px 0;
   }
-}
 
-/* DARK MODE Support */
-body.dark-mode {
-  background: linear-gradient(to right, #222, #333);
-  color: #eee;
+  section {
+    padding: 20px;
+  }
 }
-
-body.dark-mode header h1,
-body.dark-mode section h2 {
-  color: #b2ff59;
-}
-
-body.dark-mode nav a {
-  color: #ddd;
-}
-
-body.dark-mode nav a:hover {
-  background-color: #8bc34a;
-  color: #000;
-}
-
-body.dark-mode section,
-body.dark-mode .card {
-  background-color: #444;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-}
-
-body.dark-mode input,
-body.dark-mode textarea {
-  background-color: #555;
-  color: #fff;
-  border-color: #888;
-}
-
-/* Optional: Dark mode toggle button style */
-.toggle-dark-mode {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  background-color: #222;
-  color: #fff;
-  border: none;
-  padding: 10px 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  z-index: 999;
-}
-
