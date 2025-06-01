@@ -128,5 +128,24 @@ section {
 .card:hover {
   transform: translateY(-5px);
 }
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #6a9100, #8fc93a);
+  color: #ec0b0bc8;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #5a6c00, #7fb32a);
+  transform: translateY(-2px);
+}
+
 
 }
