@@ -6,13 +6,21 @@
 }
 
 body {
+  body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 900px;
   margin: auto;
   padding: 30px;
-  background: linear-gradient(135deg, #cfe572, #9eb432);
+  background: 
+    linear-gradient(135deg, #cfe572, #9eb432),
+    url('https://www.toptal.com/designers/subtlepatterns/patterns/symphony.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
   color: #333;
   line-height: 1.6;
+}
+
 }
 
 /* Header */
