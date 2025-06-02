@@ -27,7 +27,7 @@ body {
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-  
+
 } 
 
 /* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- */
@@ -126,7 +126,9 @@ section h2 {
   margin-bottom: 22px;
 }
 
-#about p   { font-size: 1.12rem; }
+#about p   { font-size: 1.12rem;
+text-align: justify;
+}
 
 /* Projects list */
 #projects ul { list-style: none; }
