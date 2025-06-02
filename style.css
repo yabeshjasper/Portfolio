@@ -21,23 +21,20 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to right, #c41129, #5e3ba5);
-  color: #333;
-  padding: 0 20px;
-  overflow-x: hidden;
-  position: relative;
-} 
-/*
-body {
-  font-family: 'Poppins', sans-serif;
-  line-height: 1.6;
   background: url('Asset/Photo.jpg') no-repeat center center fixed;
   background-size: cover;
   color: #333;
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-} */
+
+  /*
+  background: linear-gradient(to right, #c41129, #5e3ba5);
+  color: #333;
+  padding: 0 20px;
+  overflow-x: hidden;
+  position: relative; */
+} 
 
 /* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- */
 body::before,
