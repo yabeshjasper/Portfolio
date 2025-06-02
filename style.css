@@ -77,7 +77,7 @@ body::after {
 /* ---------- 3. HEADER ---------- */
 header {
   background: linear-gradient(135deg, var(--accent-1), var(--accent-2));
-  color: #dd0eba;
+  color: #f3ebf2;
   padding: 34px 20px 40px;
   text-align: center;
   border-radius: 0 0 18px 18px;
@@ -113,7 +113,7 @@ nav a:hover::after { width: 100%; }
 
 /* ---------- 4. CARD-STYLE SECTIONS WITH REVEAL ---------- */
 section {
-  background: #fff;
+  background: #b70e98;
   margin: 38px auto;
   padding: 36px;
   max-width: 900px;
