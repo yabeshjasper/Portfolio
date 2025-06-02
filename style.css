@@ -26,12 +26,9 @@ body {
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-  
+} */
 
-}
-
-*/
-body{
+body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background: url('Asset/Photo.jpg') no-repeat center center fixed;
