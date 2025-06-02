@@ -21,7 +21,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  background: linear-gradient(to right, #da1b84, #9f16c9);
   color: #333;
   padding: 0 20px;
   overflow-x: hidden;
@@ -39,7 +39,7 @@ body {
   position: relative;
 } */
 
-/* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- 
+/* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- */
 body::before,
 body::after {
   content: '';
@@ -51,7 +51,7 @@ body::after {
   opacity: .45;
   z-index: -2;
   animation: blobFloat 26s ease-in-out infinite alternate;
-} */
+} 
 
 body::before {
   top: -120px;
