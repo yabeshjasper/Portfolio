@@ -127,7 +127,7 @@ section h2 {
 }
 
 #about p   { font-size: 1.12rem;
-text-align: justify;
+              text-align: justify;
 }
 
 /* Projects list */
@@ -141,13 +141,14 @@ text-align: justify;
   box-shadow: 0 3px 9px rgba(0,0,0,.05);
   transition: transform .35s  cubic-bezier(.4,1.7,.6,.95);
 }
-#projects li:hover { transform: translateY(-6px) scale(1.02); }
+#projects li:hover { transform: translateY(-6px) scale(1.02); 
 
-/* Certification */
+}
 
 #projects ul {
   list-style: none;
 }
+
 /* Certifications */
 #certifications ul {
   list-style-type: none;
