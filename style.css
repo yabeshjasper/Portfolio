@@ -17,7 +17,7 @@
 }
 
 html { scroll-behavior: smooth; }
-/*
+
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -26,8 +26,8 @@ body {
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-} */
-
+} 
+/*
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -37,10 +37,9 @@ body {
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-}
- 
+} */
 
-/* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- */
+/* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- 
 body::before,
 body::after {
   content: '';
@@ -52,7 +51,7 @@ body::after {
   opacity: .45;
   z-index: -2;
   animation: blobFloat 26s ease-in-out infinite alternate;
-}
+} */
 
 body::before {
   top: -120px;
