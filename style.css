@@ -130,7 +130,7 @@ section h2 {
               text-align: center;
 }
 
-/* Projects list */
+/* Projects list 
 #projects ul { list-style: none; }
 #projects li {
   background: #e6f2ff;
@@ -147,6 +147,56 @@ section h2 {
 
 #projects ul {
   list-style: none;
+} */
+#experience {
+  background: #f4f4fb;
+  padding: 36px;
+  margin: 38px auto;
+  max-width: 900px;
+  border-radius: 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+}
+
+#experience h2 {
+  color: var(--accent-2);
+  font-size: 2rem;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.job {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.job h3 {
+  font-size: 1.4rem;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.job .duration {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 4px;
+}
+
+.job .position {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-1);
+  margin-bottom: 10px;
+}
+
+.responsibilities {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.responsibilities li {
+  margin-bottom: 6px;
+  line-height: 1.5;
 }
 
 /* Certifications */
@@ -159,7 +209,7 @@ section h2 {
   padding: 15px;
   margin-bottom: 12px;
   background-color: #fff3cd;
-  border-left: 6px solid #f0ad4e;
+  border-left: 6px solid #023e8a;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   font-weight: 500;
