@@ -27,13 +27,7 @@ body {
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-
-  /*
-  background: linear-gradient(to right, #c41129, #5e3ba5);
-  color: #333;
-  padding: 0 20px;
-  overflow-x: hidden;
-  position: relative; */
+  
 } 
 
 /* ---------- 2. ANIMATED BACKGROUND BLOBS ---------- */
