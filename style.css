@@ -17,20 +17,20 @@
 }
 
 html { scroll-behavior: smooth; }
-
+/*
 body {
-  /*font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   background: linear-gradient(to right, #f0f4f8, #d9e2ec);
   color: #333;
   padding: 0 20px;
   overflow-x: hidden;
   position: relative;
-  */
+  
 
 }
 
-
+*/
 body{
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
