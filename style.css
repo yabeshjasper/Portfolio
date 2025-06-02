@@ -113,7 +113,7 @@ nav a:hover::after { width: 100%; }
 
 /* ---------- 4. CARD-STYLE SECTIONS WITH REVEAL ---------- */
 section {
-  background: #ca0a8a;
+  background: #ffffff;
   margin: 38px auto;
   padding: 36px;
   max-width: 900px;
