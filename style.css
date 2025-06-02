@@ -148,13 +148,16 @@ section h2 {
 #projects ul {
   list-style: none;
 } */
-#experience {
+#experience { list-style: none }
+#experience{
   background: #f4f4fb;
+  border-left: 6px solid var(--accent-2);
   padding: 36px;
   margin: 38px auto;
   max-width: 900px;
   border-radius: 14px;
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.06);
+  transition: transform .35s  cubic-bezier(.4,1.7,.6,.95);
 }
 
 #experience h2 {
@@ -208,7 +211,7 @@ section h2 {
 #certifications li {
   padding: 15px;
   margin-bottom: 12px;
-  background-color: #fff3cd;
+  background-color: #023e8a;
   border-left: 6px solid #023e8a;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
